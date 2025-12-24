@@ -1,0 +1,34 @@
+{
+  "name": "expo-leakcanary-plugin",
+  "version": "1.0.0",
+  "description": "Expo config plugin that adds LeakCanary for Android memory leak detection",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "expo",
+    "expo-plugin",
+    "config-plugin",
+    "leakcanary",
+    "android",
+    "memory-leak",
+    "react-native"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": ">=47.0.0"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "build",
+    "app.plugin.js"
+  ]
+}

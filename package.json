@@ -4,6 +4,16 @@
   "description": "Expo config plugin that adds LeakCanary for Android memory leak detection",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "author": "Yusuf Emirhan Şahin <syusufemirhan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yemirhan/expo-leakcanary-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/yemirhan/expo-leakcanary-plugin/issues"
+  },
+  "homepage": "https://github.com/yemirhan/expo-leakcanary-plugin#readme",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf build",
@@ -18,8 +28,7 @@
     "memory-leak",
     "react-native"
   ],
-  "author": "",
-  "license": "MIT",
+  
   "peerDependencies": {
     "expo": ">=47.0.0"
   },
